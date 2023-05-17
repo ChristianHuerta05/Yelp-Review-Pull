@@ -1,0 +1,17 @@
+{
+  "name": "yelp-review-pull",
+  "version": "1.0.0",
+  "description": "Pull Yelp reiviews with API requests.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristianHuerta05/Yelp-Review-Pull.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristianHuerta05/Yelp-Review-Pull/issues"
+  },
+  "homepage": "https://github.com/ChristianHuerta05/Yelp-Review-Pull#readme"
+ 
+}
