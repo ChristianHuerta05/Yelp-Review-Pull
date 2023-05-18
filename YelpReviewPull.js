@@ -1,5 +1,9 @@
 const https = require('https');
-
+/**
+ * Retrieves reviews for a business from Yelp Fusion API.
+ * @param {string} businessId - The ID of the business.
+ * @returns {Promise<Array>} - A promise that resolves to an array of review objects, each review contains, name, rating, text, and time review was created.
+ */
 function getReviews(businessId) {
   return new Promise((resolve, reject) => {
     const url = `https://api.yelp.com/v3/businesses/${businessId}/reviews`;
@@ -7,7 +11,7 @@ function getReviews(businessId) {
     const options = {
       headers: {
         'accept': 'application/json',
-        'Authorization': 'Bearer API_KEY'
+        'Authorization': 'Bearer API_KEY' // Replace 'API_KEY' with the actual API key
       }
     };
 
